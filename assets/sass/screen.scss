@@ -1,0 +1,132 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import"compass/reset";
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+/* The Variabels */
+h1,h2,h3,h4,h5{
+		font-family: 'Fjalla One', sans-serif;
+		font-weight: 400;
+}
+$tablet: 768px;
+$desktop: 1100px;
+$smartphone: 320px;
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+body {
+    background-color: aliceblue;
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+}
+.navbar{
+	background-color: #2E3A3A;
+	border:none;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+		font-family: 'Fjalla One', sans-serif;
+		color: #CE5556;
+		font-weight: 400;
+		font-size: 20px;
+}
+header {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url(../img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 10px;
+}
+@media screen and (max-width: $desktop) {
+    header {
+        height: 800px;
+   }
+}
+@media screen and (max-width: $tablet) {
+    header {
+        height: 600px;
+   }
+}
+@media screen and (max-width: $smartphone) {
+    header {
+        height: 400px;
+   }
+}
+.header-one {
+    text-align: center;
+}
+.in-one{
+	margin-top: 90px;
+	h1{
+		margin-top: 10px;
+		font-family: 'Fjalla One', sans-serif;
+		color: #CE5556;
+		font-weight: 400;
+		font-size: 80px;
+  		letter-spacing: -2px;
+  		line-height: 1;
+  		text-shadow: 4px 3px 0px #2E3A3A, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  		margin: 0 0 15px;
+  		margin-bottom: 5px;
+	}
+	h4{
+        font-family: 'Fjalla One', sans-serif;
+		color: #B37727;
+		font-weight: 400;
+        font-size: 25px;
+        margin-top: 5px;
+	}
+	img{
+		width: 270px;
+	}
+	a{
+		color: #2E3A3A;
+	}
+}
+
+.btn-landing{
+    @include border-radius(0px);
+    background-color: transparent;
+    border-width: medium;
+    border-color: #FFA938;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2E3A3A;
+}
+.btn-landing:hover{
+	background-color: #FFA938;
+	color: #FFF;
+}
+#services{
+    background-image: url(../img/section-one.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 10px;
+    min-height: 300px;
+}
+#about-us{
+    background-image: url(../img/section-two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 10px;
+    min-height: 300px;
+}
