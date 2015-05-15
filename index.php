@@ -36,11 +36,11 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="menu-link" href="#about-us">About Us</a></li>
                         <li><a class="menu-link" href="#services">Services</a></li>
-                        <li><a class="menu-link" href="#solutions">Solutions</a></li>
+                        <li><a class="menu-link" href="#testimonials">Testimonials</a></li>
                         <li><a class="menu-link" href="#showcase">Showcase</a></li>
                         <li><a class="menu-link" href="#clients">Clients</a></li>
                         <li><a class="menu-link" href="#contact-us">Contact Us</a></li>
-                        <li><a href="#search"><i class="fa fa-search"></i></a></li>
+                        <li><form><input id="search" name="search" type="text" placeholder="What u're looking for? "></form><a type="submit"><i class="fa fa-search"></i></a></li>
                     </ul>
                     </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
@@ -63,7 +63,7 @@
                             <h1><i class="fa fa-user-secret fa-4x"></i></h1>
                             <h2>About Us</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                            <hr>
+                            <hr class="garis-spesial">
                             </article>
                         </div>
                     </div>
@@ -173,54 +173,69 @@
 </div>
 </section>
 <section id="services">
+<div class="container services-inner">
+<div class="row">
+<div class="col-lg-12">
+<br>
+<h1 class="services-heading"><i class="fa fa-star fa-4x"></i></h1>
+<h2 class="section-heading services-heading">Our Services</h2>
+<div class="well well-sm well-services">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+                            <hr class="garis-spesial">
+</div>
+</div>
+</div>
 <div class="container">
 <div class="row">
-<div class="col-lg-12 text-center">
-<h2 class="section-heading">Our Servicess</h2>
-<hr>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
 <div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-diamond"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
+<span class="fa-stack fa-lg fa-5x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+</span><br>
+<h2 class="shadow077-white">Marketing</h2>
+<p class="text-muted">Lorem ipsum dolor sit amet dolore due amit oke</p>
+<br>
+<button class="btn btn-view-d"> View Detail <i class="fa fa-angle-right"></i></button>
+</div> 
 <div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-paper-plane"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
+<span class="fa-stack fa-lg fa-5x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
+</span><br>
+<h2 class="shadow077-white">Website Solution</h2>
+<p class="text-muted">Lorem ipsum dolor sit amet dolore due amit oke</p>
+<br>
+<button class="btn btn-view-d"> View Detail <i class="fa fa-angle-right"></i></button>
 </div>
 <div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-newspaper-o"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
+<span class="fa-stack fa-lg fa-5x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
+</span><br>
+<h2 class="shadow077-white">Branding</h2>
+<p class="text-muted">Lorem ipsum dolor sit amet dolore due amit oke</p>
+<br>
+<button class="btn btn-view-d"> View Detail <i class="fa fa-angle-right"></i></button></div>
 <div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-heart"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
+<span class="fa-stack fa-lg fa-5x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+</span><br>
+<h2 class="shadow077-white">SEO</h2>
+<p class="text-muted">Lorem ipsum dolor sit amet dolore due amit oke</p>
+<br>
+<button class="btn btn-view-d"> View Detail <i class="fa fa-angle-right"></i></button></div>
 </div>
 </div>
 </section>
-<section id="solutions">
+<section id="testimonials">
 <div class="container">
 <div class="row">
 <div class="col-lg-12 text-center">
 <h1><i class="fa fa-leaf fa-4x"></i></h1>
-<h2 class="section-heading">Solutions</h2>
-<hr class="primary">
+<h2 class="section-heading">testimonials</h2>
+<hr class="garis-spesial">
 </div>
 </div>
 </div>
@@ -265,7 +280,7 @@
 <h2 class="section-heading">Showcase</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-<hr class="primary">
+<hr class="garis-spesial">
 </div>
 </div>
 </div>
@@ -340,16 +355,16 @@
                         <div class="tab-featured-image">
                             <div class="tab-content">
                                 <div class="tab-pane  in active" id="tab1">
-                                        <img src="https://ununsplash.imgix.net/photo-1417024321782-1375735f8987?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab1" class="img img-responsive">
+                                        <img src="assets/img/twoo.jpg" alt="tab1" class="img img-responsive">
                                 </div>
                                 <div class="tab-pane " id="tab2">
                                     
-                                        <img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950">
+                                        <img src="assets/img/three.jpg">
                                     
                                 </div>
                                 <div class="tab-pane fade" id="tab3">
                                     
-                                        <img src="https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab1" class="img img-responsive">
+                                        <img src="assets/img/one.jpg" alt="tab1" class="img img-responsive">
                                 </div>
                             </div>
                         </div>
@@ -370,7 +385,7 @@
 <div class="row">
 <div class="col-lg-12 text-center">
 <h2 class="section-heading">Our Servicess</h2>
-<hr class="primary">
+<hr class="garis-spesial">
 </div>
 </div>
 </div>
@@ -412,7 +427,7 @@
 <div class="row">
 <div class="col-lg-12 text-center">
 <h2 class="section-heading">CONTACT US</h2>
-<hr class="primary">
+<hr class="garis-spesial">
 </div>
 </div>
 </div>
@@ -448,16 +463,71 @@
 </div>
 </div>
 </div>
-<div id="wrap">
-<form action="" autocomplete="on">
-<input id="search" name="search" type="text" placeholder="What u're looking for? "><input id="search_submit" value="Rechercher" type="submit">
-</form>
-</div>
 </section>
+<!-- Google Maps -->
+<div class="visible-lg visible-md visible-sm map" id="map"></div>
+<div class="visible-lg visible-md visible-sm contactform" id="contactform"><br>
+<img src="assets/img/cover.png" class="img-responsive"><hr class="hr-custom">
+<address>
+  <strong>Local Tobacco</strong><br>
+  <p>Jl. Kaliurang KM. 5, Gg. Sitisonya 1B, Mlati,Sleman, Yogyakarta</p><br>
+  <p><abbr title="Phone"><i class="fa fa-phone"></i></abbr> (0274) 888728</p>
+<p><abbr title="Email"><i class="fa fa-envelope"></i></abbr>&nbsp;info@localtobacco.com</p>
+
+</address>
+
+</div>
+<div class="clearfix"></div>
+<!-- /maps --> <br>
+<footer class="panel-footer">
+    <div class="container">
+    <p class="pull-left"><h2>&nbsp&nbsp&copy; 2015 LocalTobacco Corporation</h2></p><br>
+    <p class="footer">While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+  </div>
+</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="assets/js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script> 
+<script type="text/javascript">
+    var locations = [
+      ['<h1 class="maps-tittle"><i class="fa fa-university"> </i> Local Tobacco</h1>', -7.762164,110.3780213, 1]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 13,
+      center: new google.maps.LatLng(-7.7673012,110.423975),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+     
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+<script>
+$(document).ready(function(){
+$(function () {
+  $('[data-toggle="popover"]').popover()
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+});
+</script>
 </body>
 </html>

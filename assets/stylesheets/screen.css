@@ -78,6 +78,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 20, ../sass/screen.scss */
+p {
+  font-size: 12pt;
+}
+
+/* line 23, ../sass/screen.scss */
+.shadow077-white {
+  text-shadow: 0px 0px 7px #FFFFFF;
+}
+
+/* line 26, ../sass/screen.scss */
+hr.garis-spesial {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
+/* line 35, ../sass/screen.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -87,7 +107,7 @@ html, body {
 /* The Variabels */
 /* Mixin Configuration */
 /* Extra Button */
-/* line 42, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .btn-see-all {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -100,45 +120,58 @@ html, body {
   color: #790600;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .btn-see-all:hover {
   background-color: #790600;
   color: #FFF;
 }
 
+/* line 70, ../sass/screen.scss */
+.btn-view-d {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #A94442;
+  color: #FFF;
+  border-width: medium;
+  border-color: #A94442;
+  font-size: 15px;
+}
+
 /* Panel Configuration */
-/* line 56, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .no-border {
   border: none;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .panel-body > p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 10pt;
   text-align: left;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .panel-heading {
   background-color: #2E3A3A;
   color: #AB3F3A;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 h4.panel-title {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 /* Navbar Styler */
-/* line 74, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .navbar {
   background-color: #2E3A3A;
   border: none;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .navbar > .container .navbar-brand {
   font-family: 'Fjalla One', sans-serif;
   color: #CE5556;
@@ -146,22 +179,22 @@ h4.panel-title {
   font-size: 20px;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 li a.menu-link:link {
   color: #859E9E;
 }
-/* line 90, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 li a.menu-link:visited {
   color: #5B7373;
 }
-/* line 93, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 li a.menu-link:hover {
   color: #859E9E;
 }
 
 /* Button Effect */
 /* Pages */
-/* line 101, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 header {
   margin-top: 50px;
   position: relative;
@@ -177,33 +210,33 @@ header {
 }
 
 @media screen and (max-width: 1100px) {
-  /* line 116, ../sass/screen.scss */
+  /* line 139, ../sass/screen.scss */
   header {
     height: 800px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 122, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   header {
     height: 600px;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 128, ../sass/screen.scss */
+  /* line 151, ../sass/screen.scss */
   header {
     height: 400px;
   }
 }
-/* line 133, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .header-one {
   text-align: center;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .in-one {
   margin-top: 90px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .in-one h1 {
   margin-top: 10px;
   font-family: 'Fjalla One', sans-serif;
@@ -216,7 +249,7 @@ header {
   margin: 0 0 15px;
   margin-bottom: 5px;
 }
-/* line 151, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .in-one h4 {
   font-family: 'Fjalla One', sans-serif;
   color: #f2f237;
@@ -224,17 +257,17 @@ header {
   font-size: 25px;
   margin-top: 5px;
 }
-/* line 158, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .in-one img {
   width: 270px;
 }
-/* line 161, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .in-one a {
   color: #1D2235;
   text-shadow: 0px 0px 16px #969696;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .btn-landing {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -248,26 +281,37 @@ header {
   color: #2E3A3A;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .btn-landing:hover {
   background-color: #FFA938;
   color: #FFF;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 #services {
-  width: 100%;
+  min-height: 400px;
   height: 100%;
-  text-align: center;
-  background: url(../img/section-one.jpg) no-repeat center center fixed;
+  background: url(../img/intro-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 10px;
 }
 
-/* line 194, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
+.services-heading {
+  color: #AB3F3A;
+  text-align: center;
+  text-shadow: 0px 0px 7px #FFFFFF;
+}
+
+/* line 221, ../sass/screen.scss */
+.well-services {
+  text-shadow: 0px 0px 7px #FFFFFF;
+  opacity: 0.7;
+}
+
+/* line 226, ../sass/screen.scss */
 #about-us {
   text-align: center;
   background-image: url(../img/shadow.png);
@@ -281,7 +325,7 @@ header {
   min-height: 300px;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 #showcase {
   width: 100%;
   height: 100%;
@@ -296,7 +340,7 @@ header {
   padding: 10px;
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 #contact-us {
   width: 100%;
   height: 100%;
@@ -304,8 +348,8 @@ header {
   z-index: 0;
 }
 
-/* line 228, ../sass/screen.scss */
-#solutions {
+/* line 260, ../sass/screen.scss */
+#testimonials {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -317,7 +361,7 @@ header {
   padding: 10px;
 }
 
-/* line 240, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 #clients {
   width: 100%;
   height: 100%;
@@ -330,25 +374,20 @@ header {
   padding: 10px;
 }
 
-/* line 253, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 section h2 {
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 20pt;
   font-weight: bolder;
 }
-/* line 259, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 section p {
   font-size: 10pt;
   font-weight: normal;
 }
-/* line 263, ../sass/screen.scss */
-section hr {
-  border-color: #364343;
-  border-width: medium;
-}
 
-/* line 269, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .bian-avatar {
   height: 200px;
   background: url(../img/bn.jpg) no-repeat center center;
@@ -358,7 +397,7 @@ section hr {
   -o-background-size: cover;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .no-avatar {
   height: 200px;
   background: url(../img/no.jpg) no-repeat center center;
@@ -368,7 +407,7 @@ section hr {
   -o-background-size: cover;
 }
 
-/* line 287, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .hrs-avatar {
   height: 200px;
   background: url(../img/hrs.jpg) no-repeat center center;
@@ -378,7 +417,7 @@ section hr {
   -o-background-size: cover;
 }
 
-/* line 296, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 .seto-avatar {
   height: 200px;
   background: url(../img/seto.jpg) no-repeat center center;
@@ -388,60 +427,38 @@ section hr {
   -o-background-size: cover;
 }
 
-/* line 305, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 .panel-shadow {
   border-width: medium;
   border-color: #F5F5F5;
 }
 
-/* line 310, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 .panel-shadow:hover {
   -webkit-box-shadow: 0px 0px 28px -11px #52524a;
   -moz-box-shadow: 0px 0px 28px -11px #52524a;
   box-shadow: 0px 0px 28px -11px #52524a;
 }
 
-/* line 316, ../sass/screen.scss */
-#wrap {
-  margin-bottom: 90px;
-  margin-right: 50px;
-  display: inline-block;
-  position: fixed;
-  height: 60px;
-  float: right;
-  padding: 0;
-  position: relative;
-  display: block;
-}
-
-/* line 328, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 input[type="text"] {
   height: 60px;
-  font-size: 55px;
-  display: inline-block;
-  font-family: 'Fjalla One', sans-serif;
-  font-weight: 200;
-  border: none;
-  outline: none;
   color: #555;
   padding: 3px;
   padding-right: 60px;
   width: 0px;
   position: absolute;
-  top: 0;
-  right: 0;
-  background: none;
   z-index: 3;
   transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
   cursor: pointer;
 }
 
-/* line 349, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 input[type="text"]:focus:hover {
   border-bottom: 1px solid #BBB;
 }
 
-/* line 353, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 input[type="text"]:focus {
   width: 700px;
   z-index: 1;
@@ -449,14 +466,13 @@ input[type="text"]:focus {
   cursor: text;
 }
 
-/* line 360, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 input[type="submit"] {
   height: 67px;
   width: 63px;
   display: inline-block;
   color: red;
   float: right;
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNjEyIDYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjEyIDYxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMTAwMDI7IiBkPSJNNDA2LjM2OSwyNDguMTY2YzMuNjcyLDkuNTg4LDUuNTA4LDE5LjM4LDUuNTA4LDI5LjM3NnMtMS44MzYsMTkuNzg4LTUuNTA4LDI5LjM3Ng0KCQkJcy05LjM4NCwxOC4yNTgtMTcuMTM2LDI2LjAxcy0xNi40MjUsMTMuNTY2LTI2LjAxMywxNy40NDJzLTE5LjQ3OSw1LjgxMi0yOS42ODIsNS44MTJzLTIwLjA5NC0xLjkzOC0yOS42ODItNS44MTINCgkJCWMtOS41ODgtMy44NzYtMTguMjU4LTkuNjktMjYuMDEtMTcuNDQyYy03Ljc1Mi03Ljc1Mi0xMy41NjYtMTYuNDIyLTE3LjQ0Mi0yNi4wMXMtNS44MTQtMTkuMzgtNS44MTQtMjkuMzc2DQoJCQlzMS45MzgtMTkuNzg4LDUuODE0LTI5LjM3NnM5LjY5LTE4LjI1OCwxNy40NDItMjYuMDFjNy43NTItNy43NTIsMTYuNDIyLTEzLjQ2NCwyNi4wMS0xNy4xMzZzMTkuNDgyLTUuNTA4LDI5LjY4Mi01LjUwOA0KCQkJczIwLjA5NCwxLjgzNiwyOS42ODIsNS41MDhzMTguMjYxLDkuMzg0LDI2LjAxMywxNy4xMzZDMzk2Ljk4NSwyMjkuOTA4LDQwMi42OTcsMjM4LjU3OCw0MDYuMzY5LDI0OC4xNjZ6IE02MTIsMzA2DQoJCQljMCwyOC4xNTItMy42NzIsNTUuMjg0LTExLjAxNiw4MS4zOTZjLTcuMzQ3LDI2LjEwOS0xNy42NDYsNTAuNDg3LTMwLjkwNiw3My4xMzRjLTEzLjI2LDIyLjY0NC0yOS4xNzIsNDMuMjQ4LTQ3LjczNiw2MS44MTINCgkJCWMtMTguNTYyLDE4LjU2NC0zOS4xNjgsMzQuNDc5LTYxLjgxMiw0Ny43MzZjLTIyLjY0NiwxMy4yNi00Ny4wMjIsMjMuNTYyLTczLjEzNiwzMC45MDZDMzYxLjI4NCw2MDguMzI4LDMzNC4xNTIsNjEyLDMwNiw2MTINCgkJCXMtNTUuMjg0LTMuNjcyLTgxLjM5Ni0xMS4wMTZjLTI2LjExMi03LjM0Ny01MC40OS0xNy42NDYtNzMuMTM0LTMwLjkwNnMtNDMuMjQ4LTI5LjE3Mi02MS44MTItNDcuNzM2DQoJCQljLTE4LjU2NC0xOC41NjItMzQuNDc2LTM5LjE2OC00Ny43MzYtNjEuODEyYy0xMy4yNi0yMi42NDYtMjMuNTYyLTQ3LjAyMi0zMC45MDYtNzMuMTM1QzMuNjcyLDM2MS4yODQsMCwzMzQuMTUyLDAsMzA2DQoJCQlzMy42NzItNTUuMjg0LDExLjAxNi04MS4zOTZzMTcuNjQ2LTUwLjQ5LDMwLjkwNi03My4xMzRzMjkuMTcyLTQzLjI0OCw0Ny43MzYtNjEuODEyczM5LjE2OC0zNC40NzYsNjEuODEyLTQ3LjczNg0KCQkJczQ3LjAyMi0yMy41NjIsNzMuMTM0LTMwLjkwNlMyNzcuODQ4LDAsMzA2LDBjNDIuMDI0LDAsODEuNzAyLDguMDU4LDExOS4wMzQsMjQuMTc0czY5Ljc2OCwzNy45NDQsOTcuMzA4LDY1LjQ4NA0KCQkJczQ5LjM2OCw1OS45NzYsNjUuNDg0LDk3LjMwOFM2MTIsMjYzLjk3Niw2MTIsMzA2eiBNNDc0LjMsMjc3Ljg0OWMwLTE3Ljk1Mi0zLjM2Ni0zNS41OTgtMTAuMDk4LTUyLjkzOA0KCQkJcy0xNy4wMzQtMzIuOTQ2LTMwLjkwNi00Ni44MThjLTEzLjg3Mi0xMy44NzItMjkuNDc4LTI0LjE3NC00Ni44MTgtMzAuOTA2Yy0xNy4zNC02LjczMi0zNC45ODMtMTAuMDk4LTUyLjkzOC0xMC4wOTgNCgkJCXMtMzUuNTk4LDMuMzY2LTUyLjkzOCwxMC4wOThzLTMyLjk0NiwxNy4wMzQtNDYuODE4LDMwLjkwNmMtMTEuODMyLDExLjgzMi0yMS4xMTQsMjQuOTktMjcuODQ2LDM5LjQ3NA0KCQkJcy0xMC45MTQsMjkuNTgtMTIuNTQ2LDQ1LjI4OHMtMC43MTQsMzEuMzE0LDIuNzU0LDQ2LjgxOHM5LjQ4NiwyOS45ODgsMTguMDU0LDQzLjQ1MmwtNjEuMiw2MS4yDQoJCQljLTcuMzQ0LDcuMzQ0LTExLjAxNiwxNi4xMTYtMTEuMDE2LDI2LjMxM2MwLDEwLjIsMy42NzIsMTguNzcxLDExLjAxNiwyNS43MDRjNi45MzYsNy4zNDcsMTUuNjA2LDExLjAxOSwyNi4wMSwxMS4wMTkNCgkJCWMxMC40MDQsMCwxOS4wNzQtMy42NzIsMjYuMDEtMTEuMDE5bDYzLjY0OC02My42NDZjMTMuNDY0LDYuOTM2LDI3LjQzOCwxMS42MjgsNDEuOTIyLDE0LjA3Ng0KCQkJYzE0LjQ4NCwyLjQ0NSwyOC45NjgsMi42NDksNDMuNDUyLDAuNjA5czI4LjU2LTYuNDI2LDQyLjIyOC0xMy4xNTdzMjYuMDEyLTE1LjYwNSwzNy4wMjYtMjYuNjIzDQoJCQljMTMuODcyLTEzLjg2OSwyNC4xNzQtMjkuNDc4LDMwLjkwNi00Ni44MTVDNDcwLjkzMywzMTMuNDQ3LDQ3NC4zLDI5NS44MDEsNDc0LjMsMjc3Ljg0OXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCgf561c58efde1ce8ef52d2bb99b15a64c") center center no-repeat;
   text-indent: -10000px;
   border: none;
   position: absolute;
@@ -469,18 +485,18 @@ input[type="submit"] {
   transition: opacity .4s ease;
 }
 
-/* line 379, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 input[type="submit"]:hover {
   opacity: 0.8;
 }
 
 /* Showcase */
-/* line 384, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .panel-heading:hover {
   cursor: pointer;
 }
 
-/* line 388, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 .panel-heading {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -490,13 +506,13 @@ input[type="submit"]:hover {
   user-select: none;
 }
 
-/* line 397, ../sass/screen.scss */
+/* line 405, ../sass/screen.scss */
 .side-tab:hover {
   cursor: pointer;
 }
 
 /* Mackbook pro mockup */
-/* line 404, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 .md-macbook-pro {
   display: block;
   width: 55.3125em;
@@ -505,31 +521,31 @@ input[type="submit"]:hover {
   margin: 0 auto;
 }
 @media (max-width: 1199px) {
-  /* line 404, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
   .md-macbook-pro {
     font-size: 11px;
   }
 }
 @media (max-width: 1024px) {
-  /* line 404, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
   .md-macbook-pro {
     font-size: 10px;
   }
 }
 @media (max-width: 767px) {
-  /* line 404, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
   .md-macbook-pro {
     font-size: 7px;
   }
 }
 @media (max-width: 320px) {
-  /* line 404, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
   .md-macbook-pro {
     font-size: 5px;
   }
 }
 
-/* line 424, ../sass/screen.scss */
+/* line 432, ../sass/screen.scss */
 .md-macbook-pro .md-lid {
   width: 45em;
   height: 30.625em;
@@ -541,7 +557,7 @@ input[type="submit"]:hover {
   background: #131313;
 }
 
-/* line 435, ../sass/screen.scss */
+/* line 443, ../sass/screen.scss */
 .md-macbook-pro .md-camera {
   width: 0.375em;
   height: 0.375em;
@@ -553,7 +569,7 @@ input[type="submit"]:hover {
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
 }
 
-/* line 446, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 .md-macbook-pro .md-camera:after {
   content: "";
   display: block;
@@ -566,7 +582,7 @@ input[type="submit"]:hover {
   border-radius: 100%;
 }
 
-/* line 458, ../sass/screen.scss */
+/* line 466, ../sass/screen.scss */
 .md-macbook-pro .md-screen {
   width: 42.25em;
   height: 26.375em;
@@ -577,12 +593,12 @@ input[type="submit"]:hover {
   overflow: hidden;
 }
 
-/* line 468, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .md-macbook-pro .md-screen img {
   width: 100%;
 }
 
-/* line 472, ../sass/screen.scss */
+/* line 480, ../sass/screen.scss */
 .md-macbook-pro .md-base {
   width: 100%;
   height: 0.9375em;
@@ -591,7 +607,7 @@ input[type="submit"]:hover {
   background: #c6c7ca;
 }
 
-/* line 480, ../sass/screen.scss */
+/* line 488, ../sass/screen.scss */
 .md-macbook-pro .md-base:after {
   content: "";
   display: block;
@@ -604,7 +620,7 @@ input[type="submit"]:hover {
   border-radius: 0 0 1.25em 1.25em;
 }
 
-/* line 492, ../sass/screen.scss */
+/* line 500, ../sass/screen.scss */
 .md-macbook-pro .md-base:before {
   content: "";
   display: block;
@@ -616,7 +632,7 @@ input[type="submit"]:hover {
   border-radius: 0 0 0.625em 0.625em;
 }
 
-/* line 503, ../sass/screen.scss */
+/* line 511, ../sass/screen.scss */
 .md-macbook-pro.md-glare .md-lid:after {
   content: "";
   display: block;
@@ -633,3 +649,62 @@ input[type="submit"]:hover {
 }
 
 /* end of Showcase */
+/* Maps Begins */
+/* line 528, ../sass/screen.scss */
+.map {
+  height: 474px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+/* line 534, ../sass/screen.scss */
+.contactform {
+  position: relative;
+  z-index: 1;
+  /* The z-index should be higher than Google Maps */
+  width: 350px;
+  height: auto;
+  opacity: 0.70;
+  /* Set the opacity for a slightly transparent Google Form */
+  color: white;
+  background-color: #C00;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-bottom: 19px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+/* line 554, ../sass/screen.scss */
+#contact-us {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+/* line 558, ../sass/screen.scss */
+#landing-text {
+  font-size: large;
+  font-weight: bolder;
+  color: #FFF;
+}
+
+/* line 563, ../sass/screen.scss */
+.maps-tittle {
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+/* End of Maps */
+/* line 568, ../sass/screen.scss */
+p.footer {
+  font-size: 8pt;
+  font-weight: normal;
+}
