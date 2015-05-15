@@ -240,34 +240,45 @@
 </div>
 </div>
 <div class="container">
-<div class="row">
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-diamond"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item  active">
+
+<aside class="well well-lg text-center"><i class="fa fa-quote-right pull-right"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> <i class="fa fa-quote-left pull-left"></i></p>
+
+</aside>         <h3>Mr Bian </h3>&nbsp <span class="badge">Founder of LocalTobacco</span>
+    </div>
+    <div class="item  ">
+<aside class="well well-lg text-center"><i class="fa fa-quote-right pull-right"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> <i class="fa fa-quote-left pull-left"></i></p>
+
+</aside>       <h3>Mr Bian </h3>&nbsp <span class="badge">Founder of LocalTobacco</span>
+    </div>
+    <div class="item  ">
+<aside class="well well-lg text-center"><i class="fa fa-quote-right pull-right"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> <i class="fa fa-quote-left pull-left"></i></p>
+
+</aside>       <h3>Mr Bian </h3>&nbsp <span class="badge">Founder of LocalTobacco</span>
+    </div>
+    <div class="item  ">
+<aside class="well well-lg text-center"><i class="fa fa-quote-right pull-right"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> <i class="fa fa-quote-left pull-left"></i></p>
+
+</aside>       <h3>Mr Bian </h3>&nbsp <span class="badge">Founder of LocalTobacco</span>
+    </div>
+    <div class="item  ">
+<aside class="well well-lg text-center"><i class="fa fa-quote-right pull-right"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> <i class="fa fa-quote-left pull-left"></i></p>
+
+</aside>       <h3>Mr Bian </h3>&nbsp <span class="badge">Founder of LocalTobacco</span>
+    </div>
+  </div>
+
+  <!-- Controls -->
+
 </div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-paper-plane"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-newspaper-o"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-heart"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
+<div class="btn-group pull-right" role="group" aria-label="...">
+  <button type="button" class="btn btn-link" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2x"> </i></button>
+  <button type="button" class="btn btn-link" href="#carousel-example-generic" role="button" data-slide="next"><i class="fa fa-chevron-right fa-2x"> </i></button>
 </div>
 </div>
 </div>
@@ -390,77 +401,7 @@
 </div>
 </div>
 <div class="container">
-<div class="row">
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-diamond"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-paper-plane"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-newspaper-o"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-heart"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="contact-us">
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center">
-<h2 class="section-heading">CONTACT US</h2>
-<hr class="garis-spesial">
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-diamond"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-paper-plane"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-newspaper-o"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 text-center">
-<div class="service-box">
-    <i class="fa fa-5x text-danger fa-heart"></i>
-    <h3>Localtobacco.com</h3>
-    <p class="text-muted">Okeh bro just test text here</p>
-</div>
-</div>
+hshs
 </div>
 </div>
 </section>
@@ -471,18 +412,19 @@
 <address>
   <strong>Local Tobacco</strong><br>
   <p>Jl. Kaliurang KM. 5, Gg. Sitisonya 1B, Mlati,Sleman, Yogyakarta</p><br>
-  <p><abbr title="Phone"><i class="fa fa-phone"></i></abbr> (0274) 888728</p>
-<p><abbr title="Email"><i class="fa fa-envelope"></i></abbr>&nbsp;info@localtobacco.com</p>
-
 </address>
-
+<button class="btn btn-landing">Send Us A Message <i class="fa fa-send"></i></button>
 </div>
 <div class="clearfix"></div>
-<!-- /maps --> <br>
-<footer class="panel-footer">
+<!-- /maps --> 
+<footer class="panel-footer clearfix">
     <div class="container">
-    <p class="pull-left"><h2>&nbsp&nbsp&copy; 2015 LocalTobacco Corporation</h2></p><br>
-    <p class="footer">While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+    <div class="row">
+    <div class="col-sm-6"><p class="footer">&nbsp&nbsp&copy; 2015 LocalTobacco Corporation</p><br></div>
+    <div class="col-sm-6"><p class="footer">While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.</p></div>
+    </div>
+    
+    
   </div>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

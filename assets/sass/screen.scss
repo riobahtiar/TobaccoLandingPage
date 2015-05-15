@@ -54,6 +54,32 @@ $link_navbar_visited: #5B7373;
     border-radius: $radius;
 }
 /* Extra Button */
+.btn-landing {
+    @include border-radius(0px);
+    background-color: transparent;
+    border-width: medium;
+    border-color: #FFA938;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2E3A3A;
+}
+
+.btn-ex:hover {
+    background-color: #FFA938;
+    color: #FFF;
+}
+.btn-ex {
+    @include border-radius(0px);
+    background-color: transparent;
+    border-width: medium;
+    border-color: #FFA938;
+    color: #2E3A3A;
+}
+
+.btn-landing:hover {
+    background-color: #FFA938;
+    color: #FFF;
+}
 .btn-see-all{
     @include border-radius(0px);
     background-color: transparent;
@@ -187,20 +213,7 @@ header {
     }
 }
 
-.btn-landing {
-    @include border-radius(0px);
-    background-color: transparent;
-    border-width: medium;
-    border-color: #FFA938;
-    font-weight: bold;
-    font-size: 20px;
-    color: #2E3A3A;
-}
 
-.btn-landing:hover {
-    background-color: #FFA938;
-    color: #FFF;
-}
 
 #services {
     min-height: 400px;
@@ -259,13 +272,7 @@ header {
 
 #testimonials {
     width: 100%;
-    height: 100%;
-    text-align: center;
-    background: url(../img/section-two.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    height: 340px;
     padding: 10px;
 }
 
@@ -568,4 +575,7 @@ input[type="submit"]:hover {
 p.footer{
 	font-size:8pt;
 	font-weight:normal;
+}
+footer{
+	margin-bottom:0px;
 }
